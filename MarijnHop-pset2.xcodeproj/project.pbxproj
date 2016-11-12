@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60DC3DF1DD7474F002D1EC3 /* EnterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60DC3DE1DD7474E002D1EC3 /* EnterWords.swift */; };
 		C6590E781DD50A53001E3B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6590E771DD50A53001E3B92 /* AppDelegate.swift */; };
 		C6590E7D1DD50A53001E3B92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6590E7B1DD50A53001E3B92 /* Main.storyboard */; };
 		C6590E7F1DD50A53001E3B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6590E7E1DD50A53001E3B92 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60DC3DE1DD7474E002D1EC3 /* EnterWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterWords.swift; sourceTree = "<group>"; };
 		C6590E741DD50A53001E3B92 /* MarijnHop-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MarijnHop-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6590E771DD50A53001E3B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6590E7C1DD50A53001E3B92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				C6590E951DD51B41001E3B92 /* Story.swift */,
+				C60DC3DE1DD7474E002D1EC3 /* EnterWords.swift */,
 				C6590E7B1DD50A53001E3B92 /* Main.storyboard */,
 				C6BAFB781DD62CC0004CBDE6 /* SelectStory.swift */,
 				C683434B1DD67C5700AEF2F5 /* ViewStory.swift */,
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6BAFB791DD62CC0004CBDE6 /* SelectStory.swift in Sources */,
+				C60DC3DF1DD7474F002D1EC3 /* EnterWords.swift in Sources */,
 				C6590E781DD50A53001E3B92 /* AppDelegate.swift in Sources */,
 				C683434C1DD67C5700AEF2F5 /* ViewStory.swift in Sources */,
 				C6590E961DD51B41001E3B92 /* Story.swift in Sources */,

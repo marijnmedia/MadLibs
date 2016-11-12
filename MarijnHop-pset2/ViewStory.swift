@@ -9,37 +9,18 @@
 import UIKit
 
 class ViewStory: UIViewController {
-
+    
+    var story: String?
+    var storyTitle: String?
+    
     @IBOutlet weak var storyText: UITextView!
     @IBOutlet weak var titleText: UILabel!
     
-    var story: Story!
-    var fileName: String?
-    var storyTitle: String?
-    var content: String?
-    var storyString: String?
-    
+    // Display story
     override func viewDidLoad() {
-        
-        if let filepath = Bundle.main.path(forResource: fileName!, ofType: ".txt") {
-            do {
-                content = try String(contentsOfFile: filepath)
-            }
-            catch {
-                print("contents could not be loaded")
-            }
-        }
-        
-        story = Story(stream: content!)
-        storyText.text = story.toString()
-        
-        let newTitle = storyTitle!
-        titleText.text = newTitle
-        
-    }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    storyText.text = story!
+    titleText.text = storyTitle!
     }
 
 }
